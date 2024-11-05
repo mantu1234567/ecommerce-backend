@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb://localhost:27017/myntraDB', {
+        await mongoose.connect('mongodb+srv://mantukumar803204:DJWRMIQa5OLJQuYE@ecommerce.oa06o.mongodb.net/', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
